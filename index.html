@@ -3,72 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="AIFund Backups: an operator-managed utility for storing encrypted backup archives in Google Drive.">
     <title>AIFund Backups</title>
-    <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
-    <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header">
-      <a class="brand" href="index.html">AIFund Backups</a>
-      <nav aria-label="Main navigation">
-        <a href="index.html" aria-current="page">About</a>
-        <a href="privacy.html">Privacy</a>
-      </nav>
-    </header>
-    <main id="main" tabindex="-1">
-      <section class="intro" aria-labelledby="page-title">
-        <p class="eyebrow">For AIFund operators</p>
-        <h1 id="page-title">AIFund Backups</h1>
-        <p class="lead">A small utility for storing encrypted backup archives in Google Drive.</p>
-        <p>
-          AIFund Backups is an operator-managed backup workflow built around
-          rclone. Authorized AIFund operators use it to upload, verify, retrieve,
-          and manage backup archives in an AIFund-controlled Google Drive account.
-        </p>
-        <div class="notice">
-          <strong>Information only.</strong> This website contains no backups,
-          credentials, or access to the trading platform. It is not a trading
-          service and has no public sign-up.
-        </div>
-      </section>
-      <section aria-labelledby="drive-title">
-        <h2 id="drive-title">Why it needs Google Drive</h2>
-        <p>
-          Google Drive provides storage outside the platform's own server.
-          The account owner authorizes the utility through Google's OAuth
-          sign-in process; the utility does not ask for the account password.
-        </p>
-        <p>
-          The requested permission is <code>drive.file</code>. It is used to
-          manage this application's backup files and folders, rather than
-          request full access to the account's other Drive files.
-        </p>
-      </section>
-      <section aria-labelledby="recovery-title">
-        <h2 id="recovery-title">Encryption and recovery</h2>
-        <p>
-          The required backup procedure encrypts archives before upload and
-          keeps the private decryption key separately from the backup host.
-          Restoring an archive requires that key. Google Drive storage does
-          not replace integrity checks or a restore test.
-        </p>
-        <p>
-          Backup schedules and retention are configured separately by the
-          operators. This information page does not confirm that an automated
-          backup job is running.
-        </p>
-      </section>
-      <section class="contact" aria-labelledby="contact-title">
-        <h2 id="contact-title">Contact and privacy</h2>
-        <p>Questions about this utility or its Google Drive access:</p>
-        <p><a href="mailto:ai.fund.info@gmail.com">ai.fund.info@gmail.com</a></p>
-        <p><a href="privacy.html">Read the privacy policy <span aria-hidden="true">&rarr;</span></a></p>
-      </section>
-    </main>
-    <footer class="site-footer">
-      <span>AIFund Backups</span>
-      <a href="privacy.html">Privacy policy</a>
-    </footer>
-  </body>
+  <body>AIFund Backups</body>
 </html>
