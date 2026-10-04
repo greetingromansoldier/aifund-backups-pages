@@ -1,0 +1,27 @@
+# Public information pages only. Never keep credentials or backup data here.
+.DS_Store
+.env
+.env.*
+*.json
+*.conf
+*.key
+*.pem
+*.p12
+*.pfx
+*.dump
+*.sql
+*.age
+*.zip
+*.tar
+*.gz
+*.bak
+*.log
+credentials*
+client_secret*
+token*
+secrets*
+rclone*
+.config/
+.venv/
+node_modules/
+__pycache__/
